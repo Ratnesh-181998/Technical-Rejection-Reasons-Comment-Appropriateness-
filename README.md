@@ -138,17 +138,6 @@ significant topic. These are considered irrelevant.
 • Use these models to predict irrelevant comments based on the patterns learned from previous 
 months' data.
 
-
-Note: Based on the score table similarity score was generated between the selected and the rejected product. Selected product(sp) 
-and Rejected product(rp). 
-                    if sp>rp: 
-                         score=100*(1-((sp-rp)/sp))     
-                    else:                  
-                         score=100*(1-((rp-sp)/rp)) 
-.The result output is the rejected products having 100% similar to the accepted product.
-
-
-
 Business Value:
 
 1. The solution aims to enhance the bidding process on the GeM portal by identifying and filtering out 
@@ -172,24 +161,16 @@ benefiting both sellers and buyers alike.
 
 Integration & API: Developed and integrated RESTful APIs using FlaskAPI.
 
-Input – Solution required ‘Bid ID’ as input to identify such unlawful rejections.  
+Input - Solution requires bid id as input.
 
+<img width="1339" height="358" alt="image" src="https://github.com/user-attachments/assets/b5d51573-b5fe-4999-b9f8-c2260e75a758" />
 
-<img width="1269" height="447" alt="image" src="https://github.com/user-attachments/assets/dec34102-a725-4a41-82f5-4069976e0aca" />
+Output – Output showcases all irrelevant comments for respective bid.  
 
+<img width="1287" height="441" alt="image" src="https://github.com/user-attachments/assets/ccc79bf6-2733-49cf-b30f-ba23e931f831" />
 
-Outcome – Solution showcases all cases where selected product id and rejected seller id along with, 
-their similarity score and rejected seller name. 
-
-
-<img width="1434" height="813" alt="image" src="https://github.com/user-attachments/assets/19b3f170-59fe-404e-9246-79207237ce20" />
-
-
-
-<img width="1430" height="583" alt="image" src="https://github.com/user-attachments/assets/6ab75166-5f69-40d4-b99e-4a2d5726c6eb" />
-
-
-
+<img width="1421" height="421" alt="image" src="https://github.com/user-attachments/assets/28353507-a7e5-4a03-ab92-3ef655bd85c3" />
+<img width="1428" height="273" alt="image" src="https://github.com/user-attachments/assets/591a068a-d888-4aeb-83b7-149a78e32ec0" />
 
 
 
